@@ -11,7 +11,7 @@ This is a work in progress. Better documentation coming soon.
 
 A Scatterplot Matrix react component design for the visualization of results yielded by the k-means algorithm. Features an interactive legend, data selection & brushing. 
 
-## usage
+## Usage
 
 Install 
 ```
@@ -58,7 +58,7 @@ data & centroids properties are of this format:
 `plotId` is a unique identifier for your component
 
 
-## release
+## Release
 
 ```
 npm run build
@@ -72,14 +72,9 @@ git commit
 git push
 ```
 
-got to github, create release
+go to github, create release
 
-
-create scoped package? 
 
 ```
 npm publish
 ```
-
- 
-
