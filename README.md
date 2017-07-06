@@ -16,7 +16,6 @@ A Scatterplot Matrix react component design for the visualization of results yie
 Install 
 ```
 npm install react-d3-scatterplot-matrix --save
-
 ```
 
 Import the component into your source code:
@@ -38,9 +37,9 @@ Call the component with a plotId and properly formatted data / centroids:
 The React Component takes 3 required props:
 
 ```
-  data: PropTypes.array
-  centroids: PropTypes.array
-  plotId: PropTypes.string
+  data: array
+  centroids: array
+  plotId: string
 ```
 
 data & centroids properties are of this format:
@@ -54,13 +53,12 @@ data & centroids properties are of this format:
     "centroid" : 0
   }
 ]
-
 ```
 
-plotId is a unique identifier for your component
+`plotId` is a unique identifier for your component
 
 
-## release process
+## release
 
 ```
 npm run build
